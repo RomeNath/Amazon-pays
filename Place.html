@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amazon-Pagos</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="shadow-sm mb-5">
+        <div class="container-fluid">
+            <div class="row mt-3">
+                <div class="col-lg-2">
+                    <a href="Home.html" class="navbar-brand"><img src="img/logo-com.png" alt=""></a>
+                </div>
+                <div class="col-lg-6">
+                    <hr>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-lg-12 mt-3">
+                    <h3 class="title">Seleccionar una dirección de envío</h3>
+                    <p>¿Aparece a continuación la dirección que deseas utilizar? Se es así, haz clic en el botón "Entregar a esta dirección". O puedes <a href="#form" class="link1" >introducir una nueva dirección de envío</a></p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-3 mt-4">
+                    <h4 class="title-secondary">Scottie Frankie Pairpoint Nacey</h4>
+                    <p>
+                        641 Charing Cross Junction
+                        <br> Long Beach Art. 1234
+                        <br> Casa #22
+                        <br> California, Estados Unidos 1203
+                        <br> Teléfono Celular: 72702036
+                    </p>
+                    <a href="Payment.html" class="btn btn-color1 btn-block">Entregar a esta dirección</a>
+                    <div class="mt-2 mb-5">
+                        <button class="btn btn-color2 btn-pad">Editar</button>
+                        <button class="btn btn-color2 btn-pad">Eliminar</button>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <h5 class="title-secondary"> Agregar otra dirección </h5>
+                    <p> Asegúrate de hacer clic en "Enviar a esta dirección" cuando hayas terminado </p>
+                    <form id="form">
+                        <div class="form-group">
+                          <label for="">Nombre / Quién recibe:</label>
+                          <input type="text" class="form-control" id="" placeholder="Ingresar nombre">                          
+                        </div>
+                        <div class="form-group">
+                          <label for="">Dirección (calle, número de casa o interior, torre, empresa):</label>
+                          <input type="text" class="form-control" id="" placeholder="Calle, apartado postal, No. Ext / No. Int">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Línea de dirección 2:</label>
+                            <input type="text" class="form-control" id="" placeholder="Apartamento, Suite, Unidad, Edificio, Piso, etc">                          
+                        </div>
+                        <div class="form-group">
+                            <label for="">Ciudad:</label>
+                            <input type="text" class="form-control" id="">                          
+                        </div>
+                        <div class="form-group">
+                            <label for="">Estado:</label>
+                            <input type="text" class="form-control" id="" >                          
+                        </div>
+                        <div class="form-group">
+                            <label for="">Código postal</label>
+                            <input type="text" class="form-control" id="" >                          
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">País / región</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>El Salvador</option>
+                              <option>Costa Rica</option>
+                              <option>Guatemala</option>
+                              <option>Panamá</option>
+                              <option>Honduras</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Número de teléfono : (<a href="" class="link1">Más información</a>)</label>
+                            <input type="text" class="form-control" id="" >                          
+                        </div>
+                        <div class="form-group">
+                            <h5 class="title-secondary">Agregar instrucciones de entrega (opcional)</h5>
+                        </div>
+                        <div class="form-group">
+                            <label for=""><b>¿Necesitamos indicaciones adicionales para encontrar esta dirección?</b></label>
+                            <textarea class="form-control" id="" rows="3" placeholder="Proporciónanos detalles de la descripción del edificio, un punto de referencia cercano o alguna otra señal para llegar"></textarea>
+                        </div>   
+                        <div class="form-group">
+                            <label for=""><b>¿Necesitamos un código de seguridad o un número de casilla a llamar para acceso?</b></label>
+                            <input type="text" class="form-control" placeholder="1234">
+                        </div>                     
+                        <button type="submit" class="btn btn-color1">Guardar</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr>
+        <div class="container">
+            <nav class="text-center">
+                <a href="" class="ml-4 link3">Condiciones de Uso</a>
+                <a href="" class="ml-4 link3">Aviso de Privacidad</a>
+                <a href="" class="ml-4 link3">Ayuda</a>
+            </nav>
+            <p class="text-center">&copy; 1996-2019, Amazon.com, Inc. o sus filiales</p>
+        </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

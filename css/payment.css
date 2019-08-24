@@ -1,0 +1,37 @@
+.title{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.title-secondary
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.link1:hover{
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.btn-color1{
+    background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+    border: 1px solid #9C7E37 !important;
+}
+
+.btn-color2{
+    background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+    border: 1px solid #A5A5A5 !important;
+}
+
+.btn-pad{
+   padding: .375rem 3.75rem !important;;
+}
+
+.alt{
+    text-align: center;
+   margin: .5rem !important;
+}
+
+.size{
+    height: 550px;
+}
